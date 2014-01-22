@@ -1,0 +1,133 @@
+/*** Global ***/
+nav {
+	float: right;
+	padding: 20px 30px 11px 7px;
+}
+
+#button {
+	background-color: #4386F9;
+	color: white;
+	text-decoration: none;
+	border-radius: 8%;
+	width: 20%;
+	font-weight: bold;
+}
+
+#button:active {
+	background-color: #2a78f7;
+}
+
+a {
+	font: normal 14px/1.5em 'Ariel', sans-serif;
+	color: black;
+	font-size: 13px;
+	text-decoration: none;
+	padding: 10px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.main {
+	display: block;
+	padding: 16% 25%;
+}
+
+div.main img {
+	width: 270px;
+	height: 100px;
+	margin-left: 180px;
+
+}
+
+div.main input {
+	margin: 20px;
+}
+
+#searchbar {
+	width: 600px;
+	height: 20px;
+	background-size: 4%;
+	background-image: url("../css/images/mic.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	border:1px solid #D9D9D9;
+}
+
+#searchbar:hover {
+	border:1px solid #ABABAB;
+}
+
+input#searchbar:focus {/* Not sure how to get rid of the boxshadow */
+	border:1px solid lightblue;
+	box-shadow: none;
+	outline: 0;
+}
+
+/* Search Bar from another student 
+
+	#input_holder input[type="text"] {
+		width: 42%;
+		height: 24px;
+		background-size: 4%;
+		background-image: url("mic.gif");
+		background-repeat: no-repeat;
+		background-position: right;
+		border: 1px solid gray;
+		opacity: 0.7;
+	}*/
+
+#gsearch {
+	margin-left: 180px;
+}
+
+#lucksearch {
+	margin-left: 10px;
+}
+
+
+
+.googleit {
+	height: 33px;
+	width: 120px;
+	border: 1px solid #D9D9D9;
+	color: black;
+	background-color: #F6F6F6;
+	border-radius: 3px;
+	padding:5px;
+	margin: 0 5px 0 100px;
+	font-weight: bold;
+}
+
+.googleit:hover {
+	border:1px solid #ABABAB;
+	box-shadow: 0 1px 1px #ABABAB;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	background-color: #F2F2F2;
+	border-top: 1px solid #E4E4E4;
+	width: 100%;
+	padding: 10px;
+}
+
+	footer a {
+		padding: 0 15px;
+		color: #666;
+	}
+
+	footer a:active {
+		color:red;
+	}
+
+	footer a.footright {
+		float: right;
+		padding-right: 30px;
+	}
+
+span {
+	color:red;
+}
